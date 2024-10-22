@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.sunaa.protoaddme;
+
+
+message User {
+  string name = 1;
+  string profession = 2;
+}
+
+
+message UserList {
+  repeated User users = 1;
+}
